@@ -1,13 +1,14 @@
 # ProjetDataVis
 
-Membres du groupe :
+**Membres du groupe :**
 
 Rui Filipe Gonçalves Nobrega
+
 Jean Herbaut
+
 Léonard Michiels
 
-
-Idées graphiques:
+**Idées graphiques:**
 
 - Nombre de sortie/années (des jeux vidéos)
 
