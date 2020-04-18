@@ -8,21 +8,26 @@ Jean Herbaut
 
 Léonard Michiels
 
+**style, couleur :** 
+
+Retro 
+
+tons: verts noir violet 
+
 **Idées graphiques:**
 
-- Nombre de sortie/années (des jeux vidéos)
+- Nombre de sortie/années (des jeux vidéos) "graph baton" Filipe
 
-- Taux de rejouabilité en fonction du type de jeu
+- Taux de rejouabilité en fonction du type de jeu "graphique  batons modifiable par l'utilisateur " Filipe
 
-- Performances des éditeurs / années
+- Performances des éditeurs / années "graphiques a bulles Rosling " Jean 
 
-- Type de jeux, tendance
-
-- historique des parts de marché dans le domaine entertainment
+- Type de jeux, tendance "graphique polygonal par année" Leonard
 
   
 
   # **Liens Utilises**
+
 
 https://data.world/datasets/video-games
 https://www.kaggle.com/tamber/steam-video-games
