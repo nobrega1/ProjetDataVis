@@ -39,6 +39,7 @@ Créer un fichier webpack.config.js à la racine du projet
 
 Copier-coller le code ci-dessous:
 ```const path = require('path');
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
