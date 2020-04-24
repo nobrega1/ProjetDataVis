@@ -24,8 +24,15 @@ tons: verts noir violet
 
 - Type de jeux, tendance "graphique polygonal par année" Leonard
 
-  ### Graphe de Gossling: performance des éditeurs depuis l976 jusqu'en 2017
+  ### **Graph Batons : Nombre de sortie/années des jeux vidéos**
 
+  #### **Explication du graphe** 
+  
+  ce graphe a pour but de voir le nombre de sorties de jeux vidéos par années. Le but est de voir si il a une croissance ou une stagnation dans cette évolution.
+  Source des données : https://www.kaggle.com/destring/metacritic-reviewed-games-since-2000/data
+  
+  ### Graphe de Gossling: performance des éditeurs depuis l976 jusqu'en 2017
+  
   #### Explication du graphe 
   Ce graphe a pour but d'étudier les performances des éditeurs au cours de années. Les performances se basent sur le nombre de ventes mondiale en millions pour tous les jeux vidéo ayant dépassé les 100'000 ventes depuis 1976. 
   Video_Game_Sales_as_of_Jan_2017.xlsx
@@ -33,7 +40,6 @@ tons: verts noir violet
 
 
   # **Liens Utilises**
-
 
 https://data.world/datasets/video-games
 https://www.kaggle.com/tamber/steam-video-games
