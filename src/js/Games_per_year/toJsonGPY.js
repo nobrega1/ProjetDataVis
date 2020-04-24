@@ -7,7 +7,7 @@ const file = fs.readFileSync(chemin, 'utf-8');
 const date = file.split(`\n`)
     .map(line => line.split(','))
     .map(cells => ({
-    date : cells[5]
-    }));
- console.log(date);
+    date : cells[5].trim()
+    }))
+ console.log(JSON.stringify(date));
 
