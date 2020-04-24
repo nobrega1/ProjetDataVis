@@ -1,4 +1,4 @@
-// prendre l'"input" avec l'"id" "year-input"
+/* // prendre l'"input" avec l'"id" "year-input"
 const input = document.getElementById('year-input')
 
 // quand la valeur change nous souhaitons faire quelque chose
@@ -8,9 +8,9 @@ const onYearChange = year => {
 }
 
 // écouter les changements sur la valeur de "input"
-input.addEventListener('input', e => onYearChange(Number(e.target.value)))
+input.addEventListener('input', e => onYearChange(Number(e.target.value))) */
 
-const data = require('./dataGlobalSales.json')
+const data = require('../../datasSets/dataGlobalSales.json')
 const R = require('ramda')
 const editeurs = R.uniq(data.map(d => d.editeur))
 const annees = R.uniq(data.map(d => d.year)).sort()
