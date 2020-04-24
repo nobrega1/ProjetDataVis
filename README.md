@@ -31,7 +31,7 @@ tons: verts noir violet
   ce graphe a pour but de voir le nombre de sorties de jeux vidéos par années. Le but est de voir si il a une croissance ou une stagnation dans cette évolution.
   Source des données : https://www.kaggle.com/destring/metacritic-reviewed-games-since-2000/data
   
-  ### Graphe de Gossling: performance des éditeurs depuis l976 jusqu'en 2017
+  ### Graphe bâton: performance des éditeurs depuis l976 jusqu'en 2017
   
   #### Explication du graphe 
   Ce graphe a pour but d'étudier les performances des éditeurs au cours de années. Les performances se basent sur le nombre de ventes mondiale en millions pour tous les jeux vidéo ayant dépassé les 100'000 ventes depuis 1976. 

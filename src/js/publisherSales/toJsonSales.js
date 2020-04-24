@@ -1,14 +1,21 @@
 const fs = require('fs');
-const chemin = '../../datasSets/Video_Game_Sales_as_of_Jan_2017.csv';
-
-const file = fs.readFileSync(chemin, 'utf-8');
+const data = require('../../datasSets/dataGlobalSales.json')
+const R = require('ramda')
+const editeurs = R.uniq(data.map(d => d.editeur))
+const annees = R.uniq(data.map(d => d.year)).sort()
+const sommeParEditeurEtAnnee = (editeur, annee) =>
+  R.sum(
+    data
+      .filter(d => d.editeur === editeur && d.year === annee)
+      .map(d => d.globalSells)
+  )
+const chaqueAnneePourUnEditeur = editeur =>
+  annees.map(annee => ({editeur, annee, vente: sommeParEditeurEtAnnee(editeur, annee) }))
+console.log(
+  JSON.stringify(editeurs.map(chaqueAnneePourUnEditeur))
+)
 
 /* console.log(
-    file.split(`\n`)
-      .map(line => line.split(','))
-  )
- */
-console.log(
   JSON.stringify(
     file.split(`\n`)
       .map(line => line.split(';'))
@@ -19,4 +26,4 @@ console.log(
 
       }))
   )
-)
+) */

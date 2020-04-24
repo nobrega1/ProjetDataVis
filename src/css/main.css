@@ -34,3 +34,11 @@ html, body {
   a {
     text-decoration: none;
   }
+  
+  #graph {
+    float:left;
+    width:60%;
+  }
+  #year{
+    margin-left:60%   
+  }
