@@ -17,6 +17,7 @@ html, body {
     background: #f1f1f1;
   }
   
+  
   #year-input::-webkit-slider-thumb, #year-input::-moz-range-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -33,4 +34,9 @@ html, body {
   
   a {
     text-decoration: none;
+  }
+
+  #radarslider {
+    width: 80%;
+    
   }
