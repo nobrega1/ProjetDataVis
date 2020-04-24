@@ -47,5 +47,3 @@ https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-30
 https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-30
 
 https://towardsdatascience.com/analyzing-video-games-data-in-r-1afad7122aab
-
-testerino
