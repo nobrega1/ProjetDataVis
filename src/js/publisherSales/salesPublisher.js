@@ -61,7 +61,11 @@ let generateDom = (DATA) => {
     .append('text')
     .attr('x', (d, i) => i * BAR_WIDTH + BAR_WIDTH / 2)
     .attr('y', HEIGHT - MARGIN_BOTTOM + 20)
-    .attr()
+    .attr('transform', (d, i) => {
+      const x = i * BAR_WIDTH + BAR_WIDTH / 2
+      const y = HEIGHT - MARGIN_BOTTOM + 20
+      return `rotate(90, ${x}, ${y})`
+    })
     .attr('text-anchor', 'middle')
     .attr('font-family', 'sans-serif')
     .attr('font-size', 10)

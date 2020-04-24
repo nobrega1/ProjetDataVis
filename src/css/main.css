@@ -35,7 +35,6 @@ html, body {
   a {
     text-decoration: none;
   }
-<<<<<<< HEAD
   
   #graph {
     float:left;
@@ -43,10 +42,4 @@ html, body {
   }
   #year{
     margin-left:60%   
-=======
-
-  #radarslider {
-    width: 80%;
-    
->>>>>>> 15557528f10a7bd7720aaa49d6250c5a5d1a7ec0
   }
