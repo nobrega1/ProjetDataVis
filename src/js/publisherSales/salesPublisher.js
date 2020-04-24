@@ -1,35 +1,27 @@
-import data from '../../datasSets/dataGlobalSales.json';
-import { select } from 'd3'
-import { WIDTH, HEIGHT, MARGIN_LEFT, MARGIN_TOP } from './configSales'
-
-const div = select('#graph')
-
-console.log(div.html());
-
-// récupération de l'élément slider
+// prendre l'"input" avec l'"id" "year-input"
 const input = document.getElementById('year-input')
 
+// quand la valeur change nous souhaitons faire quelque chose
+const onYearChange = year => {
+  // pour l'instant nous ne faisons qu'envoyer l'année à la console
+  console.log(year)
+}
 
-//écoute des changements du slider
+// écouter les changements sur la valeur de "input"
 input.addEventListener('input', e => onYearChange(Number(e.target.value)))
 
-const svg = div.append('svg').attr('viewBox', `0 0 ${WIDTH} ${HEIGHT}`)
-
-const bubblesGroup = svg.append('g')
-  .attr('transform', `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`)
-
-  const bubbles = bubblesGroup.selectAll('circle')
-  .data(data)
-  .enter()
-  .append('circle')
-  .attr('fill', 'black')
-  .attr('fill-opacity', 0.4)
-  .attr('stroke', 'black')
-
-  const onYearChange = year => {
-    const index = year - 1800
-    bubbles
-      .attr('cx', d => xScale(d.gdp[index]))
-      .attr('cy', d => yScale(d.lex[index]))
-      .attr('r', d => rScale(d.pop[index]))
-  }
+const data = require('./dataGlobalSales.json')
+const R = require('ramda')
+const editeurs = R.uniq(data.map(d => d.editeur))
+const annees = R.uniq(data.map(d => d.year)).sort()
+const sommeParEditeurEtAnnee = (editeur, annee) =>
+  R.sum(
+    data
+      .filter(d => d.editeur === editeur && d.year === annee)
+      .map(d => d.globalSells)
+  )
+const chaqueAnneePourUnEditeur = editeur =>
+  annees.map(annee => ({ annee, vente: sommeParEditeurEtAnnee(editeur, annee) }))
+console.log(
+  editeurs.map(chaqueAnneePourUnEditeur)
+)

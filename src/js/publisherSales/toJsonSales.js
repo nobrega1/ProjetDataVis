@@ -11,11 +11,11 @@ const file = fs.readFileSync(chemin, 'utf-8');
 console.log(
   JSON.stringify(
     file.split(`\n`)
-      .map(line => line.split(','))
+      .map(line => line.split(';'))
       .map(cells => ({
-        year: cells[2],
-        editeur: cells[4],
-        globalSells: cells[9]*1000000
+        year: cells[0],
+        editeur: cells[1],
+        globalSells: cells[2]*1000000
 
       }))
   )
