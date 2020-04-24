@@ -4,10 +4,11 @@ const chemin = path.relative(__dirname, '../../datasSets/Video_Games_Per_Year.cs
 const file = fs.readFileSync(chemin, 'utf-8');
 
 
-const date = file.split(`\n`)
-    .map(line => line.split(','))
-    .map(cells => ({
-    date : cells[5].trim()
-    }))
- console.log(JSON.stringify(date));
+    JSON.stringify(
+        file.split(`\n`)
+        .map(line => line.split(','))
+        .map(cells => ({
+        date : Number((cells[5] || '').trim())
+        }))
+    )    
 
