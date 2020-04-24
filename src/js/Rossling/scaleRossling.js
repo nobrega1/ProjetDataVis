@@ -1,4 +1,4 @@
-import { scaleLinear, scaleLog, scalePow } from 'd3'
+import { scaleLinear, scaleLog, scalePow } from './node_modules/d3'
 import { GRAPH_WIDTH, GRAPH_HEIGHT } from './configRossling'
 
 export const xScale = scaleLog().domain([500, 140000]).range([0, GRAPH_WIDTH])
