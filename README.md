@@ -24,7 +24,13 @@ tons: verts noir violet
 
 - Type de jeux, tendance "graphique polygonal par année" Leonard
 
-  
+  ### Graphe de Gossling: performance des éditeurs depuis l976 jusqu'en 2017
+
+  #### Explication du graphe 
+  Ce graphe a pour but d'étudier les performances des éditeurs au cours de années. Les performances se basent sur le nombre de ventes mondiale en millions pour tous les jeux vidéo ayant dépassé les 100'000 ventes depuis 1976. 
+  Video_Game_Sales_as_of_Jan_2017.xlsx
+  Source des données: https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings
+
 
   # **Liens Utilises**
 
