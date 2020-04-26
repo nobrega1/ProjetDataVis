@@ -62,20 +62,20 @@ Un tableau d'objets avec les clés:
 
 ### Jeux par années (Filipe)
 
-[`gamesPerYear/data.json`](gamesPerYear/data.json)
+[`jeuxParAn/data.json`](jeuxParAn/data.json)
 
 Est basé sur le jeux de données [`sources/scoresPerGame/data.json`](sources/scoresPerGame/data.json).
 
 ```
-node gamesPerYear/prepare > gamesPerYear/data.json
+node jeuxParAn/prepare > jeuxParAn/data.json
 ```
 
 ### Ventes par éditeur et par année (Jean)
 
-[`salesPerYearAndPublisher/data.json`](salesPerYearAndPublisher/data.json)
+[`performanceEditeurs/data.json`](performanceEditeurs/data.json)
 
 Est basé sur le jeux de données [`sources/globalSales/data.json`](sources/globalSales/data.json)
 
 ```
-node salesPerYearAndPublisher/prepare > salesPerYearAndPublisher/data.json
+node performanceEditeurs/prepare > performanceEditeurs/data.json
 ```

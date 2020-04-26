@@ -1,5 +1,5 @@
 import { select, scaleLinear, max } from 'd3'
-import datas from '../../../data/salesPerYearAndPublisher/data.json'
+import datas from '../../../data/performanceEditeurs/data.json'
 
 const onYearChange = (sectionId, year) => {
   getData(sectionId, year)

@@ -1,5 +1,5 @@
 import bb from 'billboard.js'
-import data from '../../../data/gamesPerYear/data.json'
+import data from '../../../data/jeuxParAn/data.json'
 
 export default graphId => {
   bb.generate({
