@@ -1,12 +1,11 @@
 //css 
 import 'css/main.css';
+import '../node_modules/billboard.js/dist/billboard.min.css'
 
 //js
-import 'js/publisherSales/salesPublisher.js';
-import 'js/Games_per_Year/configGPY.js';
-import 'js/Games_per_Year/GestionJSONGPY.js';
-import 'js/Games_per_Year/graphGPY.js';
-import 'js/publisherSales/configSales.js';
+import jeuxParAn from './js/gamesPerYear'
+// autres imports
 
-//tests
-console.log("coucou c'est Jean!");
+// utiliser les fonctions importées
+jeuxParAn('jeux-par-an-graph')
+

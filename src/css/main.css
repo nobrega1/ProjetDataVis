@@ -1,45 +1,54 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-    width: 100%;
-    font-size: 12px;
-    color: rgb(51, 51, 51);
-  }
+/*
+ * CSS en commun pour toute la page
+ */
+
+ html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  width: 100%;
+  font-size: 12px;
+  color: rgb(51, 51, 51);
+}
+
+#content {
+  width: 95%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+ * CSS pour perf-editeurs (Jean)
+ */
+
+#perf-editeurs-year-input {
+  width: 100%;
+  background: #f1f1f1;
+}
+
+#perf-editeurs-year-input::-webkit-slider-thumb,
+#perf-editeurs-year-input::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: rgb(109, 109, 109);
+  cursor: pointer;
+}
   
-  #content {
-    width: 95%;
-    margin: auto;
-  }
+#perf-editeurs .axis {
+  opacity: 0.5;
+  font-size: 8;
+}
   
-  #year-input {
-    width: 100%;
-    background: #f1f1f1;
-  }
-  
-  
-  #year-input::-webkit-slider-thumb, #year-input::-moz-range-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: rgb(109, 109, 109);
-    cursor: pointer;
-  }
-  
-  .axis {
-    opacity: 0.5;
-    font-size: 8;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  #graph {
-    float:left;
-    width:60%;
-  }
-  #year{
-    margin-left:60%   
-  }
+#perf-editeurs-graph {
+  float:left;
+  width:60%;
+}
+
+#perf-editeurs-year{
+  margin-left:60%   
+}
