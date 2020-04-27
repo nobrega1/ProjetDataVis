@@ -18,7 +18,7 @@ const getData = (sectionId, yearChosen) => {
     datas.forEach(element => {
     element.forEach(entity => {
       if(entity.annee == yearChosen && entity.vente > 0) {
-        entity.vente*1000000
+        entity.vente = entity.vente*10000000
         dataToShow.push(entity)
         count++;
       }
@@ -26,12 +26,13 @@ const getData = (sectionId, yearChosen) => {
   });
   dataToShow.sort(function(a, b){return b.vente - a.vente})
     generateDom(dataToShow.slice(0, 10))
+    //generateDom([10,45,878,421,200])
+    
 }
 
 let generateDom = (DATA) => {
-  console.log(DATA[0].vente)
   const heightScale = scaleLinear()
-    .domain([0, max(DATA[0].vente)])
+    .domain([0, DATA[0].vente])
     .range([0, HEIGHT])
   const BAR_WIDTH = WIDTH / DATA.length
 
