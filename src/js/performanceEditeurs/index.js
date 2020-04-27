@@ -1,5 +1,12 @@
 import { select, scaleLinear, max } from 'd3'
 import datas from '../../../data/performanceEditeurs/data.json'
+const WIDTH = 1000
+const HEIGHT = WIDTH / 4
+const MARGIN = WIDTH / 200
+const svg = select(`#perf-editeurs-graph`)
+      .append('svg')
+      .attr('width', WIDTH)
+      .attr('height', HEIGHT)
 
 const onYearChange = (sectionId, year) => {
   getData(sectionId, year)
@@ -7,67 +14,44 @@ const onYearChange = (sectionId, year) => {
 
 const getData = (sectionId, yearChosen) => {
   let dataToShow = [];
-  datas.forEach(element => {
+  let count = 0;
+    datas.forEach(element => {
     element.forEach(entity => {
-      if(entity.annee == yearChosen && entity.vente > 0) {
+      if(entity.annee == yearChosen && entity.vente > 0 && count < 10) { //création des datas avec seulement 10 éditeurs, je dois encore prendre les 10 plus importants
         dataToShow.push(entity)
+        count++;
       }
     });
   });
-
-  generateDom(sectionId, dataToShow)
+  generateDom(dataToShow)
 }
 
-let generateDom = (sectionId, DATA) => {
-
-  const WIDTH = 1000
-  const HEIGHT = 500
-  const MARGIN = 5
-  const MARGIN_BOTTOM = HEIGHT / 10
-  
-    // l'échelle de couleur
-  const fillScale = scaleLinear()
+let generateDom = (DATA) => {
+  console.log(DATA)
+  const heightScale = scaleLinear()
     .domain([0, max(DATA)])
-    .range(['white', 'indianred'])
-
-  $(`#${sectionId}-graph`).empty()
-  const svg = select(`#${sectionId}-graph`)
-    .append('svg')
-    .attr('width', WIDTH)
-    .attr('height', HEIGHT)
-  
+    .range([0, HEIGHT])
   const BAR_WIDTH = WIDTH / DATA.length
-  const yScale = scaleLinear()
-    .domain([0, max(DATA, d => d.vente)])
-    .range([HEIGHT, 0])
+
+  svg.empty()
+  const bars = svg.selectAll('rect')
+  .data(DATA)
+  .enter()
+  .append('rect')
+  .attr('x', (d, i) =>  i * BAR_WIDTH)
+  .attr('width', BAR_WIDTH - MARGIN)
+  .attr('y',  d => HEIGHT - heightScale(d.vente)) //pas compris
+  .attr('height', heightScale)
+
+  bars.data(DATA)
+  .transition()
+  .duration(1000)
+  .attr('y', d => HEIGHT - heightScale(d.vente)) //pas compris
   
-  svg.selectAll('rect')
-    .data(DATA)
-    .enter()
-    .append('rect')
-    .attr('x', (d, i) =>  i * BAR_WIDTH)
-    .attr('width', BAR_WIDTH - MARGIN)
-    .attr('y', d => yScale(d.vente))
-    .attr('height', d => HEIGHT - yScale(d.vente))
-    .attr('fill', 'pink')
-
-    svg.selectAll('text')
-    .data(DATA)
-    .enter()
-    .append('text')
-    .attr('x', (d, i) => i * BAR_WIDTH + BAR_WIDTH / 2)
-    .attr('y', HEIGHT - MARGIN_BOTTOM + 20)
-    .attr('transform', (d, i) => {
-      const x = i * BAR_WIDTH + BAR_WIDTH / 2
-      const y = HEIGHT - MARGIN_BOTTOM + 20
-      return `rotate(90, ${x}, ${y})`
-    })
-    .attr('text-anchor', 'middle')
-    .attr('font-family', 'sans-serif')
-    .attr('font-size', 10)
-    .text(d => d.editeur)
-
+  .attr('height', heightScale)
+  
 }
+
 
 export default sectionId => {
   onYearChange(sectionId, 2017)
