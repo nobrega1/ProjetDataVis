@@ -17,7 +17,7 @@ const getData = (sectionId, yearChosen) => {
   let count = 0;
     datas.forEach(element => {
     element.forEach(entity => {
-      if(entity.annee == yearChosen && entity.vente > 0) { //création des datas avec seulement 10 éditeurs, je dois encore prendre les 10 plus importants
+      if(entity.annee == yearChosen && entity.vente > 0) {
         dataToShow.push(entity)
         count++;
       }
