@@ -18,7 +18,7 @@ const getData = (sectionId, yearChosen) => {
     datas.forEach(element => {
     element.forEach(entity => {
       if(entity.annee == yearChosen && entity.vente > 0) {
-        entity.vente = entity.vente*10000000
+        entity.vente = entity.vente*1000000
         dataToShow.push(entity)
         count++;
       }
@@ -43,14 +43,14 @@ let generateDom = (DATA) => {
   .append('rect')
   .attr('x', (d, i) =>  i * BAR_WIDTH)
   .attr('width', BAR_WIDTH - MARGIN)
-  .attr('y',  d => HEIGHT - heightScale(d)) //pas compris
-  .attr('height', heightScale)
+  .attr('y',  d => HEIGHT - heightScale(d.vente)) //pas compris
+  .attr('height', d => d.vente)
 
   bars.data(DATA)
   .transition()
   .duration(1000)
-  .attr('y', d => HEIGHT - heightScale(d)) //pas compris
-  .attr('height', heightScale)
+  .attr('y', d => HEIGHT - heightScale(d.vente)) //pas compris
+  .attr('height', d => d.vente)
   
 }
 
