@@ -31,25 +31,26 @@ const getData = (sectionId, yearChosen) => {
 }
 
 let generateDom = (DATA) => {
+  
   const heightScale = scaleLinear()
     .domain([0, DATA[0].vente])
     .range([0, HEIGHT])
   const BAR_WIDTH = WIDTH / DATA.length
 
-  svg.empty()
+
   const bars = svg.selectAll('rect')
   .data(DATA)
   .enter()
   .append('rect')
   .attr('x', (d, i) =>  i * BAR_WIDTH)
   .attr('width', BAR_WIDTH - MARGIN)
-  .attr('y',  d => HEIGHT - heightScale(d.vente)) //pas compris
+  .attr('y',  d => HEIGHT - heightScale(d.vente)) 
   .attr('height', d => d.vente)
 
   bars.data(DATA)
   .transition()
   .duration(1000)
-  .attr('y', d => HEIGHT - heightScale(d.vente)) //pas compris
+  .attr('y', d => HEIGHT - heightScale(d.vente)) 
   .attr('height', d => d.vente)
   
 }
