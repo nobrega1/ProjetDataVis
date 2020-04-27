@@ -49,7 +49,6 @@ let generateDom = (DATA) => {
   .transition()
   .duration(1000)
   .attr('y', d => HEIGHT - heightScale(d)) //pas compris
-  
   .attr('height', heightScale)
   
 }
