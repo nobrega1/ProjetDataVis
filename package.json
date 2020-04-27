@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "preview": "live-server dist/",
-    "build": "webpack",
-    "watch": "webpack --mode=development --watch"
+    "cp:html": "cp src/index.html dist/index.html",
+    "build": "npm run cp:html && webpack",
+    "watch": "npm run cp:html && webpack --mode=development --watch"
   },
   "repository": {
     "type": "git",

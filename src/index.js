@@ -1,12 +1,13 @@
 //css 
 import 'css/main.css';
+import '../node_modules/billboard.js/dist/billboard.min.css'
 
 //js
-import 'js/publisherSales/salesPublisher.js';
-import 'js/Games_per_Year/configGPY.js';
-import 'js/Games_per_Year/GestionJSONGPY.js';
-import 'js/Games_per_Year/graphGPY.js';
-import 'js/publisherSales/configSales.js';
+import performanceEditeurs from './js/performanceEditeurs'
+import typesDeJeux from './js/typesDeJeux'
+import jeuxParAn from './js/jeuxParAn'
 
-//tests
-console.log("coucou c'est Jean!");
+// utiliser les fonctions importées
+performanceEditeurs('perf-editeurs')
+jeuxParAn('jeux-par-an-graph')
+typesDeJeux('types-jeux-graph')
