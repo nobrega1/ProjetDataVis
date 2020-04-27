@@ -17,13 +17,14 @@ const getData = (sectionId, yearChosen) => {
   let count = 0;
     datas.forEach(element => {
     element.forEach(entity => {
-      if(entity.annee == yearChosen && entity.vente > 0 && count < 10) { //création des datas avec seulement 10 éditeurs, je dois encore prendre les 10 plus importants
+      if(entity.annee == yearChosen && entity.vente > 0) { //création des datas avec seulement 10 éditeurs, je dois encore prendre les 10 plus importants
         dataToShow.push(entity)
         count++;
       }
     });
   });
-  generateDom(dataToShow)
+  dataToShow.sort(function(a, b){return b.vente - a.vente})
+    generateDom(dataToShow.slice(0, 10))
 }
 
 let generateDom = (DATA) => {
