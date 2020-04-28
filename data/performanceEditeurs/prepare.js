@@ -22,7 +22,7 @@ const dixPremiersParAnnee = annees
     const toutesLesVentesDeCetteAnnee = data.filter(d => d.annee === annee)
     const ordreParVentes = toutesLesVentesDeCetteAnnee.sort((a, b) => a.vente > b.vente ? -1 : 1)
     const dixPremiers = R.take(10, ordreParVentes)
-    const dixPremiersAvecRang = dixPremiers.map((d, i) => ({ ...d, rang: i }))
+    const dixPremiersAvecRang = dixPremiers.map((d, i) => ({ ...d, rang: i+1 }))
     return { annee, parEditeur: dixPremiersAvecRang.map(R.omit(['annee'])) }
   })
 
