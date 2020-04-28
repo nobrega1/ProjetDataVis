@@ -1,63 +1,54 @@
 import { select, scaleLinear, max } from 'd3'
-import datas from '../../../data/performanceEditeurs/data.json'
+import data from '../../../data/performanceEditeurs/data.json'
 const WIDTH = 1000
-const HEIGHT = WIDTH / 4
-const MARGIN = WIDTH / 200
-const svg = select(`#perf-editeurs-graph`)
-      .append('svg')
-      .attr('width', WIDTH)
-      .attr('height', HEIGHT)
+const HEIGHT = 500
+const RECT_SPACE = HEIGHT / 10
+const RECT_HEIGHT = RECT_SPACE * 0.8
 
-const onYearChange = (sectionId, year) => {
-  getData(sectionId, year)
+const randomColor = () =>
+  `rgb(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255})`
+
+const getRects = svg =>
+  svg.selectAll('rect')
+    .data(data)
+    .enter()
+    .append('rect')
+    .attr('height', RECT_HEIGHT)
+    .attr('fill', () => randomColor())
+
+const onYearChange = (rects, display, year) => {
+
+  display.text(year)
+
+  const maxVentes = max(
+    data
+      .map(d => d.data.find(d => d.annee === year))
+      .map(d => d.ventes)
+  )
+
+  const xScale = scaleLinear().domain([0, maxVentes]).range([0, WIDTH])
+
+  rects
+    .transition()
+    .attr('y', d => d.data.find(d => d.annee === year).rang * RECT_SPACE)
+    .attr('width', d => xScale(d.data.find(d => d.annee === year).ventes))
 }
-
-const getData = (sectionId, yearChosen) => {
-  let dataToShow = [];
-  let count = 0;
-    datas.forEach(element => {
-    element.forEach(entity => {
-      if(entity.annee == yearChosen && entity.vente > 0) {
-        entity.vente = entity.vente*1000000
-        dataToShow.push(entity)
-        count++;
-      }
-    });
-  });
-  dataToShow.sort(function(a, b){return b.vente - a.vente})
-    generateDom(dataToShow.slice(0, 10))
-    //generateDom([10,45,878,421,200])
-    
-}
-
-let generateDom = (DATA) => {
-  
-  const heightScale = scaleLinear()
-    .domain([0, DATA[0].vente])
-    .range([0, HEIGHT])
-  const BAR_WIDTH = WIDTH / DATA.length
-
-
-  const bars = svg.selectAll('rect')
-  .data(DATA)
-  .enter()
-  .append('rect')
-  .attr('x', (d, i) =>  i * BAR_WIDTH)
-  .attr('width', BAR_WIDTH - MARGIN)
-  .attr('y',  d => HEIGHT - heightScale(d.vente)) 
-  .attr('height', d => d.vente)
-
-  bars.data(DATA)
-  .transition()
-  .duration(1000)
-  .attr('y', d => HEIGHT - heightScale(d.vente)) 
-  .attr('height', d => d.vente)
-  
-}
-
 
 export default sectionId => {
-  onYearChange(sectionId, 2017)
+  const svg = select(`#${sectionId}-graph`).append('svg')
+    .attr('viewBox', `0 0 ${WIDTH} ${HEIGHT}`)
+
+  const display = svg.append('text')
+    .attr('x', WIDTH - 20)
+    .attr('y', HEIGHT - 20)
+    .attr('font-size', RECT_HEIGHT)
+    .attr('text-anchor', 'end')
+
+  const rects = getRects(svg)
+
+  onYearChange(rects, display, 2016)
+
   const input = document.getElementById(`${sectionId}-year-input`)
-  input.addEventListener('input', e => onYearChange(sectionId, Number(e.target.value)))
+  input.addEventListener('input', e => onYearChange(rects, display, Number(e.target.value)))
+
 }
