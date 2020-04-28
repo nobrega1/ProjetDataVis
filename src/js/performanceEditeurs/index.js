@@ -7,13 +7,15 @@ const RECT_HEIGHT = RECT_SPACE * 0.8
 
 const randomColor = () =>
   `rgb(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255})`
-  const getLabel = svg =>
+  
+//création des labels  
+const getLabel = svg =>
   svg.selectAll('text')
-      .data(data)
-      .enter()
-      .append('text')
-      .attr('font-family', 'sans-serif')
-      .attr('font-size', 10)
+    .data(data)
+    .enter()
+    .append('text')
+    .attr('font-family', 'sans-serif')
+    .attr('font-size', 10)
   
 const getRects = svg =>
   svg.selectAll('rect')
@@ -41,10 +43,11 @@ const onYearChange = (rects, display, year, label) => {
     .attr('y', d => d.data.find(d => d.annee === year).rang * RECT_SPACE)
     .attr('width', d => xScale(d.data.find(d => d.annee === year).ventes)) 
 
+    //append des labels, je me suis basé sur l'exemple envoyé sur slack mais très dur à comprendre
     label
    .transition()
    .text(d => d.editeur)
-   .attr("transform", d => `translate(${d.data.find(d => d.annee === year).ventes},${d.data.find(d => d.annee === year).rang * RECT_SPACE -20})`)
+   .attr("transform", d => `translate(${d.data.find(d => d.annee === year).ventes},${d.data.find(d => d.annee === year).rang * RECT_SPACE -200})`)
    .attr("x", d => d.data.find(d => d.annee === year).ventes + 20)
    .attr("y", 1)
    .attr("dy", "-0.25em")
@@ -66,6 +69,7 @@ export default sectionId => {
   onYearChange(rects, display, 2016, label)
 
   const input = document.getElementById(`${sectionId}-year-input`)
+  //ajout des labels lors du changement sur le slider
   input.addEventListener('input', e => onYearChange(rects, display, Number(e.target.value), label))
 
 }
