@@ -20,14 +20,14 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
-      }, 
+      },
       { 
         test:/\.css$/,
         use: [ 'style-loader', {
           loader: 'css-loader',
           options: {url: false} 
         }],        
-      }     
+      }  
     ]
   },
   resolve: {
