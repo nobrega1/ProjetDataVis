@@ -1,5 +1,5 @@
 import { select, scaleLinear, max, interpolateRound, lab } from 'd3'
-import data from '../../../data/performanceEditeurs/test.json'
+import data from '../../../data/performanceEditeurs/data.json'
 const WIDTH = 1000
 const HEIGHT = 500
 const RECT_SPACE = HEIGHT / 10
@@ -34,10 +34,7 @@ const onYearChange = (rects, display, year, label) => {
       .map(d => d.data.find(d => d.annee === year))
       .map(d => d.ventes)
   )
-  console.log(maxVentes)
   const xScale = scaleLinear().domain([0, maxVentes]).range([0, WIDTH])
-   
-    console.log(data[0].data[0].rang)
     rects
     .transition()
     .attr('y', d => d.data.find(d => d.annee === year).rang * RECT_SPACE)
@@ -47,9 +44,9 @@ const onYearChange = (rects, display, year, label) => {
     label
    .transition()
    .text(d => d.editeur)
-   .attr("transform", d => `translate(${d.data.find(d => d.annee === year).ventes},${d.data.find(d => d.annee === year).rang * RECT_SPACE -200})`)
-   .attr("x", d => d.data.find(d => d.annee === year).ventes + 20)
-   .attr("y", 1)
+   .attr("transform", d => `translate(${d.data.find(d => d.annee === year).ventes},${d.data.find(d => d.annee === year).rang * RECT_SPACE + 25})`)
+   .attr("x", d => d.data.find(d => d.annee === year).ventes + 100)
+   .attr("y", 0)
    .attr("dy", "-0.25em")
 
 }
