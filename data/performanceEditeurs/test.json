@@ -1,46 +1,45 @@
-
 [
     {
         "editeur": "Atari",
         "data": [
             {
                 "annee": 1976,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 0.44
             },
             {
                 "annee": 1977,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 1.98
             },
             {
                 "annee": 1978,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 3.0599999999999996
             },
             {
                 "annee": 1979,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 0.31
             },
             {
                 "annee": 1980,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 11.09
             },
             {
                 "annee": 1981,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 8.450000000000001
             },
             {
                 "annee": 1982,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 19.43
             },
             {
                 "annee": 1983,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 3.6599999999999997
             },
             {
@@ -55,12 +54,12 @@
             },
             {
                 "annee": 1986,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 0.6599999999999999
             },
             {
                 "annee": 1987,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 0.8599999999999999
             },
             {
@@ -70,7 +69,7 @@
             },
             {
                 "annee": 1989,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 0.15
             },
             {
@@ -130,17 +129,17 @@
             },
             {
                 "annee": 2001,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 8.06
             },
             {
                 "annee": 2002,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 21.510000000000005
             },
             {
                 "annee": 2003,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 17.039999999999996
             },
             {
@@ -225,7 +224,7 @@
             },
             {
                 "annee": 1978,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 0.21
             },
             {
@@ -445,32 +444,32 @@
             },
             {
                 "annee": 1980,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 3.8499999999999996
             },
             {
                 "annee": 1981,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 8.5
             },
             {
                 "annee": 1982,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 1.8599999999999999
             },
             {
                 "annee": 1983,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 1.9400000000000002
             },
             {
                 "annee": 1984,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 0.27
             },
             {
                 "annee": 1985,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 0.48
             },
             {
@@ -480,17 +479,17 @@
             },
             {
                 "annee": 1987,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 1.12
             },
             {
                 "annee": 1988,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 0.75
             },
             {
                 "annee": 1989,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 0.47
             },
             {
@@ -515,12 +514,12 @@
             },
             {
                 "annee": 1994,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 2.08
             },
             {
                 "annee": 1995,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 4.21
             },
             {
@@ -535,97 +534,97 @@
             },
             {
                 "annee": 1998,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 7.54
             },
             {
                 "annee": 1999,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 7.5699999999999985
             },
             {
                 "annee": 2000,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 14.48
             },
             {
                 "annee": 2001,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 18.590000000000003
             },
             {
                 "annee": 2002,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 26.369999999999994
             },
             {
                 "annee": 2003,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 21.38000000000001
             },
             {
                 "annee": 2004,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 39.449999999999996
             },
             {
                 "annee": 2005,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 35.670000000000016
             },
             {
                 "annee": 2006,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 19.80000000000001
             },
             {
                 "annee": 2007,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 61.54
             },
             {
                 "annee": 2008,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 66.91999999999992
             },
             {
                 "annee": 2009,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 74.49
             },
             {
                 "annee": 2010,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 63.969999999999985
             },
             {
                 "annee": 2011,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 51.03000000000002
             },
             {
                 "annee": 2012,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 52.37
             },
             {
                 "annee": 2013,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 42.92
             },
             {
                 "annee": 2014,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 44.79000000000001
             },
             {
                 "annee": 2015,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 36.86000000000002
             },
             {
                 "annee": 2016,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 16.84
             }
         ]
@@ -660,7 +659,7 @@
             },
             {
                 "annee": 1981,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 4.82
             },
             {
@@ -870,17 +869,17 @@
             },
             {
                 "annee": 1981,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 3.3500000000000005
             },
             {
                 "annee": 1982,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 1.12
             },
             {
                 "annee": 1983,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 0.5
             },
             {
@@ -1080,7 +1079,7 @@
             },
             {
                 "annee": 1981,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 2.7899999999999996
             },
             {
@@ -1290,7 +1289,7 @@
             },
             {
                 "annee": 1981,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 2.53
             },
             {
@@ -1500,12 +1499,12 @@
             },
             {
                 "annee": 1981,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 1.35
             },
             {
                 "annee": 1982,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 0.5900000000000001
             },
             {
@@ -1710,7 +1709,7 @@
             },
             {
                 "annee": 1981,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 1.14
             },
             {
@@ -1920,7 +1919,7 @@
             },
             {
                 "annee": 1981,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 0.82
             },
             {
@@ -2130,7 +2129,7 @@
             },
             {
                 "annee": 1981,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 0.77
             },
             {
@@ -2345,7 +2344,7 @@
             },
             {
                 "annee": 1982,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 0.87
             },
             {
@@ -2555,7 +2554,7 @@
             },
             {
                 "annee": 1982,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 0.63
             },
             {
@@ -2765,7 +2764,7 @@
             },
             {
                 "annee": 1982,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 0.62
             },
             {
@@ -2975,7 +2974,7 @@
             },
             {
                 "annee": 1982,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 0.54
             },
             {
@@ -3185,7 +3184,7 @@
             },
             {
                 "annee": 1982,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 0.5
             },
             {
@@ -3395,7 +3394,7 @@
             },
             {
                 "annee": 1982,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 0.47
             },
             {
@@ -3610,172 +3609,172 @@
             },
             {
                 "annee": 1983,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 10.959999999999999
             },
             {
                 "annee": 1984,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 45.56000000000001
             },
             {
                 "annee": 1985,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 49.95
             },
             {
                 "annee": 1986,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 16.18
             },
             {
                 "annee": 1987,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 11.950000000000001
             },
             {
                 "annee": 1988,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 36.440000000000005
             },
             {
                 "annee": 1989,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 63.88000000000001
             },
             {
                 "annee": 1990,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 35.49
             },
             {
                 "annee": 1991,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 15.97
             },
             {
                 "annee": 1992,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 38.10999999999999
             },
             {
                 "annee": 1993,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 20.04
             },
             {
                 "annee": 1994,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 24.99
             },
             {
                 "annee": 1995,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 16.719999999999995
             },
             {
                 "annee": 1996,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 73.69999999999999
             },
             {
                 "annee": 1997,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 26.830000000000002
             },
             {
                 "annee": 1998,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 46.58
             },
             {
                 "annee": 1999,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 65.33000000000001
             },
             {
                 "annee": 2000,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 34.050000000000004
             },
             {
                 "annee": 2001,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 45.37000000000002
             },
             {
                 "annee": 2002,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 48.30999999999999
             },
             {
                 "annee": 2003,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 36.43999999999999
             },
             {
                 "annee": 2004,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 61.69000000000002
             },
             {
                 "annee": 2005,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 126.76999999999997
             },
             {
                 "annee": 2006,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 204.54999999999998
             },
             {
                 "annee": 2007,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 103.34000000000003
             },
             {
                 "annee": 2008,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 92.00999999999999
             },
             {
                 "annee": 2009,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 127.49
             },
             {
                 "annee": 2010,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 59.91000000000001
             },
             {
                 "annee": 2011,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 52.440000000000005
             },
             {
                 "annee": 2012,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 56.66000000000002
             },
             {
                 "annee": 2013,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 54.730000000000004
             },
             {
                 "annee": 2014,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 49.739999999999995
             },
             {
                 "annee": 2015,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 28.81
             },
             {
                 "annee": 2016,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 18.220000000000002
             }
         ]
@@ -3825,52 +3824,52 @@
             },
             {
                 "annee": 1984,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 3.43
             },
             {
                 "annee": 1985,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 1.46
             },
             {
                 "annee": 1986,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 5.28
             },
             {
                 "annee": 1987,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 2.67
             },
             {
                 "annee": 1988,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 2.4299999999999997
             },
             {
                 "annee": 1989,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 1.1
             },
             {
                 "annee": 1990,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 0.63
             },
             {
                 "annee": 1991,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 1.03
             },
             {
                 "annee": 1992,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 1.04
             },
             {
                 "annee": 1993,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 5.38
             },
             {
@@ -3880,17 +3879,17 @@
             },
             {
                 "annee": 1995,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 2.5199999999999996
             },
             {
                 "annee": 1996,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 3.4899999999999998
             },
             {
                 "annee": 1997,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 6.540000000000001
             },
             {
@@ -3900,12 +3899,12 @@
             },
             {
                 "annee": 1999,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 4.9399999999999995
             },
             {
                 "annee": 2000,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 9.700000000000001
             },
             {
@@ -3915,7 +3914,7 @@
             },
             {
                 "annee": 2002,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 13.969999999999999
             },
             {
@@ -3930,7 +3929,7 @@
             },
             {
                 "annee": 2005,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 14.779999999999998
             },
             {
@@ -3950,7 +3949,7 @@
             },
             {
                 "annee": 2009,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 16.710000000000008
             },
             {
@@ -3960,12 +3959,12 @@
             },
             {
                 "annee": 2011,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 21.700000000000006
             },
             {
                 "annee": 2012,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 15.84999999999999
             },
             {
@@ -3975,17 +3974,17 @@
             },
             {
                 "annee": 2014,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 9.399999999999997
             },
             {
                 "annee": 2015,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 16.430000000000007
             },
             {
                 "annee": 2016,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 9.789999999999992
             }
         ]
@@ -4035,17 +4034,17 @@
             },
             {
                 "annee": 1984,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 1.1
             },
             {
                 "annee": 1985,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 1.03
             },
             {
                 "annee": 1986,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 4.66
             },
             {
@@ -4070,22 +4069,22 @@
             },
             {
                 "annee": 1991,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 0.44
             },
             {
                 "annee": 1992,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 0.7899999999999999
             },
             {
                 "annee": 1993,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 1.02
             },
             {
                 "annee": 1994,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 3.05
             },
             {
@@ -4250,47 +4249,47 @@
             },
             {
                 "annee": 1985,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 1
             },
             {
                 "annee": 1986,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 5.3
             },
             {
                 "annee": 1987,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 0.81
             },
             {
                 "annee": 1988,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 2.94
             },
             {
                 "annee": 1989,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 1.67
             },
             {
                 "annee": 1990,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 3.92
             },
             {
                 "annee": 1991,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 2.23
             },
             {
                 "annee": 1992,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 12.399999999999999
             },
             {
                 "annee": 1993,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 4.8500000000000005
             },
             {
@@ -4350,7 +4349,7 @@
             },
             {
                 "annee": 2005,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 13.199999999999998
             },
             {
@@ -4370,7 +4369,7 @@
             },
             {
                 "annee": 2009,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 19.51
             },
             {
@@ -4385,7 +4384,7 @@
             },
             {
                 "annee": 2012,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 14.47
             },
             {
@@ -4460,7 +4459,7 @@
             },
             {
                 "annee": 1985,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 0.02
             },
             {
@@ -4675,12 +4674,12 @@
             },
             {
                 "annee": 1986,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 4.99
             },
             {
                 "annee": 1987,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 0.93
             },
             {
@@ -4690,17 +4689,17 @@
             },
             {
                 "annee": 1989,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 0.85
             },
             {
                 "annee": 1990,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 2.23
             },
             {
                 "annee": 1991,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 2.56
             },
             {
@@ -4720,62 +4719,62 @@
             },
             {
                 "annee": 1995,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 2.7899999999999996
             },
             {
                 "annee": 1996,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 3.8799999999999994
             },
             {
                 "annee": 1997,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 4.599999999999998
             },
             {
                 "annee": 1998,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 15.389999999999999
             },
             {
                 "annee": 1999,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 15.259999999999996
             },
             {
                 "annee": 2000,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 8.47
             },
             {
                 "annee": 2001,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 24.279999999999998
             },
             {
                 "annee": 2002,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 14.219999999999988
             },
             {
                 "annee": 2003,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 14.9
             },
             {
                 "annee": 2004,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 20.26
             },
             {
                 "annee": 2005,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 14.959999999999994
             },
             {
                 "annee": 2006,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 14.529999999999998
             },
             {
@@ -4785,7 +4784,7 @@
             },
             {
                 "annee": 2008,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 29.629999999999992
             },
             {
@@ -4890,12 +4889,12 @@
             },
             {
                 "annee": 1987,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 2.56
             },
             {
                 "annee": 1988,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 3.87
             },
             {
@@ -4905,7 +4904,7 @@
             },
             {
                 "annee": 1990,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 3.12
             },
             {
@@ -4915,12 +4914,12 @@
             },
             {
                 "annee": 1992,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 2.79
             },
             {
                 "annee": 1993,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 1.15
             },
             {
@@ -4930,7 +4929,7 @@
             },
             {
                 "annee": 1995,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 3.32
             },
             {
@@ -5100,47 +5099,47 @@
             },
             {
                 "annee": 1987,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 0.84
             },
             {
                 "annee": 1988,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 0.76
             },
             {
                 "annee": 1989,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 1.1
             },
             {
                 "annee": 1990,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 1.4
             },
             {
                 "annee": 1991,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 1.1400000000000001
             },
             {
                 "annee": 1992,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 3.42
             },
             {
                 "annee": 1993,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 3
             },
             {
                 "annee": 1994,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 3.7399999999999998
             },
             {
                 "annee": 1995,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 5.1
             },
             {
@@ -5150,7 +5149,7 @@
             },
             {
                 "annee": 1997,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 6.68
             },
             {
@@ -5160,12 +5159,12 @@
             },
             {
                 "annee": 1999,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 13.52
             },
             {
                 "annee": 2000,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 6.55
             },
             {
@@ -5315,7 +5314,7 @@
             },
             {
                 "annee": 1988,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 0.03
             },
             {
@@ -5335,7 +5334,7 @@
             },
             {
                 "annee": 1992,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 2.14
             },
             {
@@ -5530,7 +5529,7 @@
             },
             {
                 "annee": 1989,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 4.17
             },
             {
@@ -5740,7 +5739,7 @@
             },
             {
                 "annee": 1989,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 0.06
             },
             {
@@ -5955,37 +5954,37 @@
             },
             {
                 "annee": 1990,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 2.6
             },
             {
                 "annee": 1991,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 4.34
             },
             {
                 "annee": 1992,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 7.98
             },
             {
                 "annee": 1993,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 1.9300000000000002
             },
             {
                 "annee": 1994,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 7.5299999999999985
             },
             {
                 "annee": 1995,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 7.9300000000000015
             },
             {
                 "annee": 1996,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 4.29
             },
             {
@@ -6020,12 +6019,12 @@
             },
             {
                 "annee": 2003,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 12.529999999999998
             },
             {
                 "annee": 2004,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 12.229999999999993
             },
             {
@@ -6035,27 +6034,27 @@
             },
             {
                 "annee": 2006,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 16.23
             },
             {
                 "annee": 2007,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 24.430000000000014
             },
             {
                 "annee": 2008,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 36.87
             },
             {
                 "annee": 2009,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 24.59000000000001
             },
             {
                 "annee": 2010,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 23.259999999999998
             },
             {
@@ -6170,7 +6169,7 @@
             },
             {
                 "annee": 1991,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 1.77
             },
             {
@@ -6380,7 +6379,7 @@
             },
             {
                 "annee": 1991,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 0.53
             },
             {
@@ -6390,7 +6389,7 @@
             },
             {
                 "annee": 1993,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 1.15
             },
             {
@@ -6590,7 +6589,7 @@
             },
             {
                 "annee": 1991,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 0.51
             },
             {
@@ -6600,7 +6599,7 @@
             },
             {
                 "annee": 1993,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 1.7
             },
             {
@@ -6805,7 +6804,7 @@
             },
             {
                 "annee": 1992,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 4.72
             },
             {
@@ -7015,7 +7014,7 @@
             },
             {
                 "annee": 1992,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 0.79
             },
             {
@@ -7025,7 +7024,7 @@
             },
             {
                 "annee": 1994,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 6.8100000000000005
             },
             {
@@ -7035,7 +7034,7 @@
             },
             {
                 "annee": 1996,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 14.830000000000002
             },
             {
@@ -7045,7 +7044,7 @@
             },
             {
                 "annee": 1998,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 8.670000000000002
             },
             {
@@ -7230,12 +7229,12 @@
             },
             {
                 "annee": 1993,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 1.93
             },
             {
                 "annee": 1994,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 5.75
             },
             {
@@ -7250,12 +7249,12 @@
             },
             {
                 "annee": 1997,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 4.489999999999999
             },
             {
                 "annee": 1998,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 13.709999999999999
             },
             {
@@ -7265,12 +7264,12 @@
             },
             {
                 "annee": 2000,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 5.59
             },
             {
                 "annee": 2001,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 9.690000000000005
             },
             {
@@ -7445,117 +7444,117 @@
             },
             {
                 "annee": 1994,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 3.43
             },
             {
                 "annee": 1995,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 18.449999999999996
             },
             {
                 "annee": 1996,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 35.07
             },
             {
                 "annee": 1997,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 43.9
             },
             {
                 "annee": 1998,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 34.640000000000015
             },
             {
                 "annee": 1999,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 36.24000000000001
             },
             {
                 "annee": 2000,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 21.689999999999994
             },
             {
                 "annee": 2001,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 45.029999999999994
             },
             {
                 "annee": 2002,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 26.16000000000001
             },
             {
                 "annee": 2003,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 24.319999999999997
             },
             {
                 "annee": 2004,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 35.15000000000001
             },
             {
                 "annee": 2005,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 26.34
             },
             {
                 "annee": 2006,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 33.86999999999999
             },
             {
                 "annee": 2007,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 37.38000000000001
             },
             {
                 "annee": 2008,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 26.44000000000001
             },
             {
                 "annee": 2009,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 36.050000000000004
             },
             {
                 "annee": 2010,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 34.529999999999994
             },
             {
                 "annee": 2011,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 26.80000000000001
             },
             {
                 "annee": 2012,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 12.209999999999994
             },
             {
                 "annee": 2013,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 12.249999999999998
             },
             {
                 "annee": 2014,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 19.31
             },
             {
                 "annee": 2015,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 11.589999999999998
             },
             {
                 "annee": 2016,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 12.330000000000002
             }
         ]
@@ -7655,7 +7654,7 @@
             },
             {
                 "annee": 1994,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 2.81
             },
             {
@@ -7865,7 +7864,7 @@
             },
             {
                 "annee": 1994,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 2.39
             },
             {
@@ -7880,7 +7879,7 @@
             },
             {
                 "annee": 1997,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 6.38
             },
             {
@@ -8080,112 +8079,112 @@
             },
             {
                 "annee": 1995,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 3.329999999999999
             },
             {
                 "annee": 1996,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 7.8999999999999995
             },
             {
                 "annee": 1997,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 22.939999999999994
             },
             {
                 "annee": 1998,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 31.409999999999997
             },
             {
                 "annee": 1999,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 20.28
             },
             {
                 "annee": 2000,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 25.150000000000002
             },
             {
                 "annee": 2001,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 45.70000000000001
             },
             {
                 "annee": 2002,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 74.89000000000003
             },
             {
                 "annee": 2003,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 79.09000000000003
             },
             {
                 "annee": 2004,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 67.82000000000002
             },
             {
                 "annee": 2005,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 67.44000000000003
             },
             {
                 "annee": 2006,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 59.560000000000024
             },
             {
                 "annee": 2007,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 75.95000000000009
             },
             {
                 "annee": 2008,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 83.49
             },
             {
                 "annee": 2009,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 85.53999999999996
             },
             {
                 "annee": 2010,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 81.55999999999999
             },
             {
                 "annee": 2011,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 71.57999999999998
             },
             {
                 "annee": 2012,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 49.09999999999996
             },
             {
                 "annee": 2013,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 52.519999999999996
             },
             {
                 "annee": 2014,
-                "rang": 1,
+                "rang": 2,
                 "ventes": 45.650000000000006
             },
             {
                 "annee": 2015,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 46.620000000000005
             },
             {
                 "annee": 2016,
-                "rang": 0,
+                "rang": 1,
                 "ventes": 34.199999999999996
             }
         ]
@@ -8290,7 +8289,7 @@
             },
             {
                 "annee": 1995,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 3.03
             },
             {
@@ -8325,77 +8324,77 @@
             },
             {
                 "annee": 2002,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 16.28
             },
             {
                 "annee": 2003,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 16.940000000000005
             },
             {
                 "annee": 2004,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 15.450000000000001
             },
             {
                 "annee": 2005,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 16.470000000000002
             },
             {
                 "annee": 2006,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 17.400000000000016
             },
             {
                 "annee": 2007,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 48.239999999999995
             },
             {
                 "annee": 2008,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 57.699999999999996
             },
             {
                 "annee": 2009,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 46.75999999999999
             },
             {
                 "annee": 2010,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 41.959999999999994
             },
             {
                 "annee": 2011,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 47.41
             },
             {
                 "annee": 2012,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 36.60999999999999
             },
             {
                 "annee": 2013,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 26.93000000000001
             },
             {
                 "annee": 2014,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 41.32999999999999
             },
             {
                 "annee": 2015,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 13.139999999999995
             },
             {
                 "annee": 2016,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 16.420000000000005
             }
         ]
@@ -8505,22 +8504,22 @@
             },
             {
                 "annee": 1996,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 5.890000000000001
             },
             {
                 "annee": 1997,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 13.56
             },
             {
                 "annee": 1998,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 7.68
             },
             {
                 "annee": 1999,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 12.68
             },
             {
@@ -8715,12 +8714,12 @@
             },
             {
                 "annee": 1996,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 5.71
             },
             {
                 "annee": 1997,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 6.410000000000002
             },
             {
@@ -8730,7 +8729,7 @@
             },
             {
                 "annee": 1999,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 7.059999999999999
             },
             {
@@ -8925,7 +8924,7 @@
             },
             {
                 "annee": 1996,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 5.12
             },
             {
@@ -8950,7 +8949,7 @@
             },
             {
                 "annee": 2001,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 13.490000000000002
             },
             {
@@ -8965,7 +8964,7 @@
             },
             {
                 "annee": 2004,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 13.69
             },
             {
@@ -8980,7 +8979,7 @@
             },
             {
                 "annee": 2007,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 26
             },
             {
@@ -8995,32 +8994,32 @@
             },
             {
                 "annee": 2010,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 49.07999999999999
             },
             {
                 "annee": 2011,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 21.07
             },
             {
                 "annee": 2012,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 15.19
             },
             {
                 "annee": 2013,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 16.63
             },
             {
                 "annee": 2014,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 11.379999999999999
             },
             {
                 "annee": 2015,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 11.08
             },
             {
@@ -9145,7 +9144,7 @@
             },
             {
                 "annee": 1998,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 13.170000000000002
             },
             {
@@ -9155,62 +9154,62 @@
             },
             {
                 "annee": 2000,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 15.859999999999998
             },
             {
                 "annee": 2001,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 20.580000000000002
             },
             {
                 "annee": 2002,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 26.51
             },
             {
                 "annee": 2003,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 29.230000000000004
             },
             {
                 "annee": 2004,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 31.139999999999997
             },
             {
                 "annee": 2005,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 23.54999999999999
             },
             {
                 "annee": 2006,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 25.319999999999997
             },
             {
                 "annee": 2007,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 32.63000000000001
             },
             {
                 "annee": 2008,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 30.179999999999996
             },
             {
                 "annee": 2009,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 30.05
             },
             {
                 "annee": 2010,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 22.76
             },
             {
                 "annee": 2011,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 24.240000000000002
             },
             {
@@ -9355,12 +9354,12 @@
             },
             {
                 "annee": 1998,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 7.54
             },
             {
                 "annee": 1999,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 5.260000000000001
             },
             {
@@ -9575,17 +9574,17 @@
             },
             {
                 "annee": 2000,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 6.029999999999999
             },
             {
                 "annee": 2001,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 20.429999999999996
             },
             {
                 "annee": 2002,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 20.29
             },
             {
@@ -9595,37 +9594,37 @@
             },
             {
                 "annee": 2004,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 24.11
             },
             {
                 "annee": 2005,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 26.469999999999995
             },
             {
                 "annee": 2006,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 20.670000000000012
             },
             {
                 "annee": 2007,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 19.509999999999994
             },
             {
                 "annee": 2008,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 45.600000000000016
             },
             {
                 "annee": 2009,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 18.539999999999996
             },
             {
                 "annee": 2010,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 35.86999999999999
             },
             {
@@ -9635,27 +9634,27 @@
             },
             {
                 "annee": 2012,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 21.310000000000002
             },
             {
                 "annee": 2013,
-                "rang": 2,
+                "rang": 3,
                 "ventes": 52.099999999999994
             },
             {
                 "annee": 2014,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 32.11
             },
             {
                 "annee": 2015,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 15.419999999999998
             },
             {
                 "annee": 2016,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 11.08
             }
         ]
@@ -9800,7 +9799,7 @@
             },
             {
                 "annee": 2003,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 15.419999999999998
             },
             {
@@ -10025,7 +10024,7 @@
             },
             {
                 "annee": 2006,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 13.37
             },
             {
@@ -10060,12 +10059,12 @@
             },
             {
                 "annee": 2013,
-                "rang": 7,
+                "rang": 8,
                 "ventes": 13.850000000000001
             },
             {
                 "annee": 2014,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 10.27
             },
             {
@@ -10075,7 +10074,7 @@
             },
             {
                 "annee": 2016,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 10.230000000000004
             }
         ]
@@ -10240,7 +10239,7 @@
             },
             {
                 "annee": 2007,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 18.2
             },
             {
@@ -10455,7 +10454,7 @@
             },
             {
                 "annee": 2008,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 21.91
             },
             {
@@ -10465,7 +10464,7 @@
             },
             {
                 "annee": 2010,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 19.910000000000004
             },
             {
@@ -10680,32 +10679,32 @@
             },
             {
                 "annee": 2011,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 26.41
             },
             {
                 "annee": 2012,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 13.75
             },
             {
                 "annee": 2013,
-                "rang": 5,
+                "rang": 6,
                 "ventes": 19.670000000000005
             },
             {
                 "annee": 2014,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 17.689999999999998
             },
             {
                 "annee": 2015,
-                "rang": 3,
+                "rang": 4,
                 "ventes": 23.96
             },
             {
                 "annee": 2016,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 6.02
             }
         ]
@@ -10890,7 +10889,7 @@
             },
             {
                 "annee": 2011,
-                "rang": 6,
+                "rang": 7,
                 "ventes": 24.92
             },
             {
@@ -10910,12 +10909,12 @@
             },
             {
                 "annee": 2015,
-                "rang": 4,
+                "rang": 5,
                 "ventes": 17.49
             },
             {
                 "annee": 2016,
-                "rang": 8,
+                "rang": 9,
                 "ventes": 7.6
             }
         ]
@@ -11110,7 +11109,7 @@
             },
             {
                 "annee": 2013,
-                "rang": 9,
+                "rang": 10,
                 "ventes": 10.109999999999998
             },
             {
