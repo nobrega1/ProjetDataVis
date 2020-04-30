@@ -1,4 +1,5 @@
 import { select, scaleLinear, max, interpolateRound, lab } from 'd3'
+import "nes.css/css/nes.min.css";
 import data from '../../../data/performanceEditeurs/data.json'
 const WIDTH = 1000
 const HEIGHT = 500
@@ -14,7 +15,6 @@ const getLabel = svg =>
     .data(data)
     .enter()
     .append('text')
-    .attr('font-family', 'sans-serif')
     .attr('font-size', 10)
   
 const getRects = svg =>
@@ -23,7 +23,9 @@ const getRects = svg =>
     .enter()
     .append('rect')
     .attr('height', RECT_HEIGHT)
+    .attr("fill-opacity", "0.35")
     .attr('fill', () => randomColor())
+   
 
 
 const onYearChange = (rects, display, year, label) => {
@@ -40,21 +42,19 @@ const onYearChange = (rects, display, year, label) => {
     .attr('y', d => d.data.find(d => d.annee === year).rang * RECT_SPACE)
     .attr('width', d => xScale(d.data.find(d => d.annee === year).ventes)) 
 
-    //append des labels, je me suis basé sur l'exemple envoyé sur slack mais très dur à comprendre
     label
    .transition()
-   .text(d => d.editeur)
+   .text(d => d.editeur + " : " + (d.data.find(d => d.annee === year).ventes).toFixed(2))
    .attr("transform", d => `translate(${d.data.find(d => d.annee === year).ventes},${d.data.find(d => d.annee === year).rang * RECT_SPACE + 25})`)
    .attr("x", d => d.data.find(d => d.annee === year).ventes + 100)
-   .attr("y", 0)
-   .attr("dy", "-0.25em")
+   .attr("rang", d => d.data.find(d => d.annee === year).rang)
 
 }
 
 export default sectionId => {
   const svg = select(`#${sectionId}-graph`).append('svg')
     .attr('viewBox', `0 0 ${WIDTH} ${HEIGHT}`)
-
+    
   const display = svg.append('text')
     .attr('x', WIDTH - 20)
     .attr('y', HEIGHT - 20)
@@ -66,7 +66,7 @@ export default sectionId => {
   onYearChange(rects, display, 2016, label)
 
   const input = document.getElementById(`${sectionId}-year-input`)
-  //ajout des labels lors du changement sur le slider
-  input.addEventListener('input', e => onYearChange(rects, display, Number(e.target.value), label))
+  input.addEventListener('input', e => 
+  onYearChange(rects, display, Number(e.target.value), label))
 
 }
