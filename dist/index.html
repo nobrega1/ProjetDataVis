@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Projet DataVis</title> 
+  <title>Projet DataVis</title>
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
 </head>
@@ -22,36 +22,65 @@
 
     <section id="perf-editeurs" class="nes-container">
       <h2>Performances des éditeurs depuis 1976 à 2016 (vente en millions)</h2>
+
+      <div class="graph-descr">
+        <p>
+          Ce graphe retrace avec des chiffres l'hisoire du jeu vidéo. Depuis 1976 à 2016, de nombreux éditeurs ont permis de faire de l'industrie du JV plus forte que la musique et le cinéma. Ici sont représentés les 10 éditeurs ayant réalisé le plus de ventes depuis 1976.
+        </p>
+      </div>
+
       <div id="perf-editeurs-graph"></div>
       <div id="perf-editeurs-year"></div>
       <input id="perf-editeurs-year-input" type="range" min="1976" max="2016" value="2016" />
-      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings" target="_blank">Video Game Sales and Ratings</a></p>
+      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings"
+          target="_blank">Video Game Sales and Ratings</a></p>
     </section>
 
     <section id="ventes-globales" class="nes-container">
       <h2>Répartition des ventes global</h2>
+
+      <div class="graph-descr">
+        <p>
+          Qui sont les plus grands consommateurs de jeux vidéo? Ce graphe montre cette répartition en montrant la part de marché (vente de jeu) aux Etats-Unis, au Japon, en Europe et dans les autres régions du monde. 
+        </p>
+      </div>
+
       <div id="ventes-globales-graph"></div>
       <div id="ventes-globales-year"></div>
       <input id="ventes-globales-year-input" type="range" min="1976" max="2016" value="2016" />
-      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings" target="_blank">Video Game Sales and Ratings</a></p>
+      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings"
+          target="_blank">Video Game Sales and Ratings</a></p>
     </section>
 
     <section id="types-jeux" class="nes-container">
       <h2>Type de jeux joués</h2>
+      <p></p>
+      <div class="graph-descr">
+
+      </div>
+
       <div id="types-jeux-graph"></div>
       <input id="types-jeux-slider" type="range" min="1976" max="2017" value="2017" />
-      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings" target="_blank">Video Game Sales and Ratings</a></p>
+      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings"
+          target="_blank">Video Game Sales and Ratings</a></p>
     </section>
-    
+
     <section id="jeux-par-an" class="nes-container">
       <h2>Graphique jeux par an</h2>
+
+      <div class="graph-descr">
+        <p></p>
+      </div>
+
       <div id="jeux-par-an-graph"></div>
-      <p>Source des données: <a href="https://www.kaggle.com/destring/metacritic-reviewed-games-since-2000/data" target="_blank">Reviewed Games Since 200</a></p>
+      <p>Source des données: <a href="https://www.kaggle.com/destring/metacritic-reviewed-games-since-2000/data"
+          target="_blank">Reviewed Games Since 200</a></p>
     </section>
 
   </div>
-     
+
   <script src="bundle.js"></script>
-          
+
 </body>
+
 </html>

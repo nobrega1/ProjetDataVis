@@ -2,7 +2,7 @@ import { select, scaleLinear, max, interpolateRound, lab } from 'd3'
 import "nes.css/css/nes.min.css";
 import bb from 'billboard.js'
 import data from '../../../data/ventesGlobales/data.json'
-const WIDTH = 300
+const WIDTH = 500
 const HEIGHT = 320
 const RECT_SPACE = HEIGHT / 10
 const RECT_HEIGHT = RECT_SPACE * 0.8
@@ -12,7 +12,7 @@ const randomColor = () =>
   
 
 const onYearChange = (display, year, chart) => {
-  display.text(year)
+  display.text(" Total de ventes en " + year +  ": " + data.find(d => d.annee === year).regions.sales.toFixed(2) + " millions" + '\n')
   chart.load({
     columns: [
         ["NA", data.find(d => d.annee === year).regions.NA],
@@ -54,9 +54,9 @@ export default sectionId => {
       })
       
       const display = svg.append('text')
-      .attr('x', WIDTH - 20)
+      .attr('x', 490)
       .attr('y', 50 - 20)
-      .attr('font-size', RECT_HEIGHT)
+      .attr('font-size', 12)
       .attr('text-anchor', 'end')
 
     onYearChange(display, 2016, chart)
