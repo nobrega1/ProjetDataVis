@@ -5,7 +5,7 @@ export default graphId => {
   bb.generate({
     data: {
       json: {
-        ['console']: data.map(({ count }) => count),
+        ['Nombre de jeux publiés']: data.map(({ count }) => count),
       },
       type: 'bar',
     },
