@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Projet DataVis</title> 
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -12,36 +14,39 @@
     <h1>Projet DataVis - VideoGames</h1>
   </header>
 
+  <div id="intro">
+
+
+  </div>
   <div id="content">
 
-    <section id="perf-editeurs">
-      <h2>Performances des éditeurs depuis 1976 à 2017</h2>
+    <section id="perf-editeurs" class="nes-container">
+      <h2>Performances des éditeurs depuis 1976 à 2016 (vente en millions)</h2>
       <div id="perf-editeurs-graph"></div>
       <div id="perf-editeurs-year"></div>
-      <input id="perf-editeurs-year-input" type="range" min="1976" max="2017" value="2017" />
-      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings">Video Game Sales and Ratings</a></p>
+      <input id="perf-editeurs-year-input" type="range" min="1976" max="2016" value="2016" />
+      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings" target="_blank">Video Game Sales and Ratings</a></p>
     </section>
 
-
-    <section id="ventes-globals">
+    <section id="ventes-globales" class="nes-container">
       <h2>Répartition des ventes global</h2>
-      <div id="ventes-globals-graph"></div>
-      <div id="ventes-globals-year"></div>
-      <input id="ventes-globals-year-input" type="range" min="1976" max="2017" value="2017" />
-      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings">Video Game Sales and Ratings</a></p>
+      <div id="ventes-globales-graph"></div>
+      <div id="ventes-globales-year"></div>
+      <input id="ventes-globales-year-input" type="range" min="1976" max="2016" value="2016" />
+      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings" target="_blank">Video Game Sales and Ratings</a></p>
     </section>
 
-    <section id="types-jeux">
+    <section id="types-jeux" class="nes-container">
       <h2>Type de jeux joués</h2>
       <div id="types-jeux-graph"></div>
       <input id="types-jeux-slider" type="range" min="1976" max="2017" value="2017" />
-      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings">Video Game Sales and Ratings</a></p>
+      <p>Source des données: <a href="https://www.kaggle.com/kendallgillies/video-game-sales-and-ratings" target="_blank">Video Game Sales and Ratings</a></p>
     </section>
     
-    <section id="jeux-par-an">
+    <section id="jeux-par-an" class="nes-container">
       <h2>Graphique jeux par an</h2>
       <div id="jeux-par-an-graph"></div>
-      <p>Source des données: <a href="https://www.kaggle.com/destring/metacritic-reviewed-games-since-2000/data">Reviewed Games Since 200</a></p>
+      <p>Source des données: <a href="https://www.kaggle.com/destring/metacritic-reviewed-games-since-2000/data" target="_blank">Reviewed Games Since 200</a></p>
     </section>
 
   </div>
