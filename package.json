@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/nobrega1/ProjetDataVis#readme",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "babel-loader": "^8.1.0",
     "babel-polyfill": "^6.26.0",
     "css-loader": "^3.5.3",
@@ -36,8 +36,7 @@
     "jquery": "^3.5.0",
     "node": "^14.0.0",
     "ramda": "^0.27.0",
-    "xlsx": "^0.15.6"
-    "nes.css": "^2.3.0",
-    "ramda": "^0.27.0"
+    "xlsx": "^0.15.6",
+    "nes.css": "^2.3.0"
   }
 }
