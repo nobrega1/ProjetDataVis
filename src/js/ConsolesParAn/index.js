@@ -2,6 +2,7 @@ import bb from 'billboard.js'
 import data from '../../../data/ConsoleParAn/data.json'
 
 export default graphId => {
+    const input= document.getElementById(`${graphId}-year-input`)
     bb.generate({
         data: {
             columns:[
