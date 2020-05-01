@@ -1,5 +1,7 @@
 import bb from 'billboard.js'
-
+import "nes.css/css/nes.min.css";
+/* import data from '../../../data/typeJeu/dataClean.json'
+ */
 export default graphId => {
   bb.generate({
     data: {
