@@ -15,6 +15,6 @@ export default graphId => {
         categories: data.map(({ year }) => year),
       }
     },
-    bindto: document.getElementById(graphId)
+    bindto:document.getElementById(graphId)
   })
 }
