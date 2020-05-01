@@ -18,7 +18,7 @@ tons: verts noir violet
 
 - Nombre de sortie/années (des jeux vidéos) "graph baton" Filipe
 
-- graphique en anneau de consoles sortie par année - Filipe
+- Taux de rejouabilité en fonction du type de jeu "graphique  batons modifiable par l'utilisateur " Filipe
 
 - Performances des éditeurs / années "graphiques a bulles Rosling " Jean 
 

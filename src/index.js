@@ -8,11 +8,9 @@ import performanceEditeurs from './js/performanceEditeurs'
 import typesDeJeux from './js/typesDeJeux'
 import jeuxParAn from './js/jeuxParAn'
 import ventesGlobales from './js/ventesGlobales'
-import consolesParAn from './js/ConsolesParAn'
 
 // utiliser les fonctions importées
 performanceEditeurs('perf-editeurs')
 jeuxParAn('jeux-par-an-graph')
 typesDeJeux('types-jeux-graph')
 ventesGlobales('ventes-globales')
-consolesParAn('Consoles-par-an-graph')
