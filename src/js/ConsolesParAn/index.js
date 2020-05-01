@@ -6,7 +6,7 @@ export default graphId => {
     bb.generate({
         data: {
             columns:[
-                [data.filter(d => d.year === year).map(d => d['console']), data.filter(d => d.year === year).map(d => d.nombreDeSorties)],
+                [data.filter(d => d.year === input).map(d => d['console']), data.filter(d => d.year === input).map(d => d.nombreDeSorties)],
             ],
             type: "donut",  
         },
