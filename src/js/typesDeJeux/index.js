@@ -1,23 +1,29 @@
 import bb from 'billboard.js'
 import "nes.css/css/nes.min.css";
-/* import data from '../../../data/typeJeu/dataClean.json'
- */
+import data from '../../../data/TypeJeu/dataClean.json'
+console.log(data);
+
 export default graphId => {
   bb.generate({
     data: {
       x: "x",
       columns: [
-        ["x", "Data A", "Data B", "Data C", "Data D", "Data E"],
-        ["data1", 330, 350, 200, 380, 150],
-        ["data2", 130, 100, 30, 200, 80],
-        ["data3", 230, 153, 85, 300, 250]
+        ["x", "Shooting", "Sports", "etc", "Data D", "Data E"],
+        ["1997", 330, 350, 200, 380, 150],
+        ["1998", 130, 100, 350, 200, 80],
+        ["1998", 130, 100, 350, 200, 80],
+        ["1998", 130, 100, 350, 200, 80],
+        ["1998", 130, 100, 350, 200, 80],
+        ["1998", 130, 100, 350, 200, 80],
+        ["1999", 230, 153, 85, 300, 250]
       ],
       type: "radar",
       labels: true
     },
     radar: {
       axis: {
-        max: 400
+        max: 450
+
       },
       level: {
         depth: 4

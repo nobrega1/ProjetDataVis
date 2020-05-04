@@ -7,8 +7,8 @@ const genres = R.uniq(gameType.map(d => d.Genre)).filter(genre => typeof genre =
 
 
 
-/* const getByYearAndGenre = (year, genre) => gameType.filter(d => d.year === year && d.Genre === genre)
- */const countByYearAndGenre = (year, genre) =>  gameType.filter(d => d.year === year && d.Genre === genre).length
+const getByYearAndGenre = (year, genre) => gameType.filter(d => d.year === year && d.Genre === genre)
+const countByYearAndGenre = (year, genre) =>  gameType.filter(d => d.year === year && d.Genre === genre).length
 
 
 
@@ -16,6 +16,5 @@ const genres = R.uniq(gameType.map(d => d.Genre)).filter(genre => typeof genre =
 const count = R.flatten(
   years.map(year =>
     genres.map(genre => ({ year, genre, count: countByYearAndGenre(year, genre) })) ) 
-).filter(count=>count !==0 && count !==null) 
+)
  console.log(JSON.stringify(count))
- 
