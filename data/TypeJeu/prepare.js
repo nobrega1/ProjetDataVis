@@ -18,8 +18,6 @@ const forOneType = genre =>
 const data = R.flatten(genres.map(forOneType))
     .filter(d => d.count !== 0)
 
-    const chaqueAnneePourUnGenre = genre =>
-    years.map(year => ({genre, year}))
 
  let Action = data.filter(d => d.genre === "Action")
  let Sport = data.filter(d => d.genre === "Sport")
@@ -32,7 +30,7 @@ const data = R.flatten(genres.map(forOneType))
  let Fighting = data.filter(d => d.genre === "Fighting")
  let Adventure = data.filter(d => d.genre === "Adventure")
  
- let bigTab = [
+ let dataTab = [
      {Action: Action}, 
      {Sport},
      {Plateform}, 
@@ -46,4 +44,4 @@ const data = R.flatten(genres.map(forOneType))
  ]
 
 
-console.log(JSON.stringify(bigTab))
+console.log(JSON.stringify(dataTab))
