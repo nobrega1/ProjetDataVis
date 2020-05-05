@@ -2,18 +2,16 @@ import bb from 'billboard.js'
 import data from '../../../data/ConsoleParAn/data.json'
 
 export default graphId => {
-    const input= document.getElementById(`${graphId}-year-input`)
+    const input= document.getElementById(`${graphId}-input`)
+    console.log(number(input.value))
+    const mesdonnes = data.filter(d => d.year === input.value).filter(d => d.nombreDeSorties != 0);
     bb.generate({
         data: {
-            columns:[
-                [data.filter(d => d.year === input).map(d => d['console']), data.filter(d => d.year === input).map(d => d.nombreDeSorties)],
-            ],
+            columns:mesdonnes.map(d => ([d['console'], d.nombreDeSorties])),
             type: "donut",  
         },
-        donut: {
-            title: "Console Games Releases Per Year"
-          },
         bindto: document.getElementById(graphId)
         })
       }
+
       
