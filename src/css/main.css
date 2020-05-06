@@ -81,7 +81,12 @@ input[type="range"]{
   width: 25px;
   height: 25px;
 }
-/* /css type jeux/ */
+/* ventes globales*/
+
+#ventes-globales-graph g.bb-chart-arcs > g.bb-chart-arc > text {
+  font-family:"Press Start 2P"
+}
+ /* /css type jeux/ */
 #types-jeux-graph{
   height: 45em;
   margin-top:3em;
@@ -100,12 +105,12 @@ div#types-jeux-graph.bb svg g g.bb-chart g.bb-chart-radars g.bb-axis text{
   
 }
 #types-jeux-graph g.bb-defocused{
-  display: none;;
+  display: none;
 }
-
-
-
-
+#types-jeux-graph g.bb-chart-text{
+  font-size:15px;
+  display:none;
+}
 #types-jeux-graph > svg:nth-child(1) > g:nth-child(2) > g:nth-child(5) {
   shape-rendering: geometricprecision;
 }
@@ -129,4 +134,8 @@ g.bb-chart-arcs>g.bb-chart-arc>text{
 .bb-chart-arc text {
   fill: black !important;
   opacity: 1;
+}
+/* jeux par an */
+#jeux-par-an-graph .tick{
+  font-family:"Press Start 2P"
 }
