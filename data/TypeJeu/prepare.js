@@ -20,8 +20,8 @@ const data = R.flatten(genres.map(forOneType))
 
 
  let Action = data.filter(d => d.genre === "Action")
- let Sport = data.filter(d => d.genre === "Sport")
- let Plateform = data.filter(d => d.genre === "Plateform")
+ let Sports = data.filter(d => d.genre === "Sports")
+ let Platform = data.filter(d => d.genre === "Platform")
  let Racing = data.filter(d => d.genre === "Racing")
  let RolePlaying = data.filter(d => d.genre === "Role-playing")
  let Puzzle = data.filter(d => d.genre === "Puzzle") 
@@ -32,8 +32,8 @@ const data = R.flatten(genres.map(forOneType))
  
  let dataTab = [
      {Action: Action}, 
-     {Sport},
-     {Plateform}, 
+     {Sports},
+     {Platform}, 
      {Racing}, 
      {RolePlaying}, 
      {Puzzle},
