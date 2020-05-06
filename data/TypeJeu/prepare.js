@@ -1,47 +1,30 @@
 
 const R = require('ramda')
-const gameType = require('../sources/TypeJeu/dataType.json')
+const jeux = require('../sources/jeux2017/data.json')
 
-const years = R.uniq(gameType.map(d => d.year)).sort().filter(year => year !== 2017 && year !== null) 
-const genres = R.uniq(gameType.map(d => d.Genre)).filter(genre => typeof genre === 'string' && genre.match(/\D/) && genre.length>3) 
+const years = R.uniq(jeux.map(d => d.year_of_release))
+  .filter(year => year !== 2017 && year !== null)
+  .sort()
+const genres = R.uniq(jeux.map(d => d.genre))
+  .sort()
 
+const countByYearAndGenre = (year, genre) =>
+  jeux.filter(d => d.year_of_release === year && d.genre === genre).length
 
+const byYearAndGenre = R.flatten(
+  years.map(year =>
+    genres.map(genre => ({ year, genre, count: countByYearAndGenre(year, genre) })) ) 
+)
 
-/* const getByYearAndGenre = (year, genre) => gameType.filter(d => d.year === year && d.Genre === genre)
- */const countByYearAndGenre = (year, genre) =>  gameType.filter(d => d.year === year && d.Genre === genre).length
+const head = ['x', ...genres]
 
+const lines = years.map(year =>
+  ([String(year), ...genres.map(genre => countByYearAndGenre(year, genre))])
+)
 
-
-const forOneType = genre =>
-  years.map(year => ({genre, year, count: countByYearAndGenre(year,genre) }))
-
-const data = R.flatten(genres.map(forOneType))
-    .filter(d => d.count !== 0)
-
-
- let Action = data.filter(d => d.genre === "Action")
- let Sports = data.filter(d => d.genre === "Sports")
- let Platform = data.filter(d => d.genre === "Platform")
- let Racing = data.filter(d => d.genre === "Racing")
- let RolePlaying = data.filter(d => d.genre === "Role-playing")
- let Puzzle = data.filter(d => d.genre === "Puzzle") 
- let Shooter = data.filter(d => d.genre === "Shooter")
- let Simulation = data.filter(d => d.genre === "Simulation")  
- let Fighting = data.filter(d => d.genre === "Fighting")
- let Adventure = data.filter(d => d.genre === "Adventure")
- 
- let dataTab = [
-     {Action: Action}, 
-     {Sports},
-     {Platform}, 
-     {Racing}, 
-     {RolePlaying}, 
-     {Puzzle},
-     {Shooter},
-     {Simulation},
-     {Fighting},
-     {Adventure}
- ]
-
-
-console.log(JSON.stringify(dataTab))
+console.log(
+  JSON.stringify([
+    head,
+    ...lines,
+  ])
+)
