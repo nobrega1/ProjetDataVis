@@ -1,20 +1,30 @@
 
 const R = require('ramda')
-const gameType = require('../sources/TypeJeu/dataType.json')
+const jeux = require('../sources/jeux2017/data.json')
 
-const years = R.uniq(gameType.map(d => d.year)).sort().filter(year => year !== 2017 && year !== null) 
-const genres = R.uniq(gameType.map(d => d.Genre)).filter(genre => typeof genre === 'string' && genre.match(/\D/) && genre.length>3) 
+const years = R.uniq(jeux.map(d => d.year_of_release))
+  .filter(year => year !== 2017 && year !== null)
+  .sort()
+const genres = R.uniq(jeux.map(d => d.genre))
+  .sort()
 
+const countByYearAndGenre = (year, genre) =>
+  jeux.filter(d => d.year_of_release === year && d.genre === genre).length
 
-
-const getByYearAndGenre = (year, genre) => gameType.filter(d => d.year === year && d.Genre === genre)
-const countByYearAndGenre = (year, genre) =>  gameType.filter(d => d.year === year && d.Genre === genre).length
-
-
-
-
-const count = R.flatten(
+const byYearAndGenre = R.flatten(
   years.map(year =>
     genres.map(genre => ({ year, genre, count: countByYearAndGenre(year, genre) })) ) 
 )
- console.log(JSON.stringify(count))
+
+const head = ['x', ...genres]
+
+const lines = years.map(year =>
+  ([String(year), ...genres.map(genre => countByYearAndGenre(year, genre))])
+)
+
+console.log(
+  JSON.stringify([
+    head,
+    ...lines,
+  ])
+)
