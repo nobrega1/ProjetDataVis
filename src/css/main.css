@@ -30,6 +30,7 @@ a {
 }
 
 .nes-container {
+  margin-top:20px;
   margin-bottom: 10px;
 }
 input[type="range"]{
@@ -77,6 +78,13 @@ input[type="range"]{
   height: 25px;
 }
 /* /css type jeux/ */
+#types-jeux-graph{
+  height: 650px;
+}
+#types-jeux-graph .axis{
+margin-top: 20px;
+font-weight: 500;
+}
 
 /* chart ventes mondiales */
 .bb-shape.bb-arc {

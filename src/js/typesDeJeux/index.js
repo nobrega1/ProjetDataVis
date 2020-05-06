@@ -2,11 +2,6 @@ import bb from 'billboard.js'
 import "nes.css/css/nes.min.css";
 import dataTab from '../../../data/TypeJeu/data.json'
 
-let stringEntries=["x"]
-dataTab.forEach(element => {
- stringEntries.push(Object.keys(element)[0])
-});
-console.log(dataTab);
 
 export default graphId => {
   bb.generate({
@@ -19,14 +14,14 @@ export default graphId => {
     },
     radar: {
       axis: {
-        max: 120
+        max: 300
 
       },
       level: {
         depth: 6
       },
       direction: {
-        clockwise: true
+        clockwise: false
       }
     },
     bindto: document.getElementById(graphId)
