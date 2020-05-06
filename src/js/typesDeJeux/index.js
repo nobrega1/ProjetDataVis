@@ -27,3 +27,5 @@ export default graphId => {
     bindto: document.getElementById(graphId)
   })
 }
+
+
