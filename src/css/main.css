@@ -96,8 +96,16 @@ input[type="range"]{
 div#types-jeux-graph.bb svg g g.bb-chart g.bb-chart-radars g.bb-axis text{
   font-size: 15px;
     font-family: "Press Start 2P";
+
   
 }
+#types-jeux-graph g.bb-defocused{
+  display: none;;
+}
+
+
+
+
 #types-jeux-graph > svg:nth-child(1) > g:nth-child(2) > g:nth-child(5) {
   shape-rendering: geometricprecision;
 }
