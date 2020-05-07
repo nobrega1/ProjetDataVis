@@ -20,7 +20,11 @@ tons: verts noir violet
 
 - Graphique Nombre de sortie par console Filipe
 
+- les deux graphiques de la guerre des Consoles Filipe 
+
 - Performances des éditeurs / années "graphiques a bulles Rosling " Jean 
+
+- Répartition des ventes globales Jean
 
 - Type de jeux, tendance "graphique polygonal par année" Leonard
 

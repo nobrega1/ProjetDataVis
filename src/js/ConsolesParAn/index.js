@@ -3,6 +3,7 @@ import data from '../../../data/ConsoleParAn/data.json'
 let idsAEnlever
 export default graphId => {
     let mesdonnes = data.filter(d => d.year === 2000).filter(d => d.nombreDeSorties != 0);
+    let input= document.getElementById(`${graphId}-input`);
     idsAEnlever = mesdonnes.map(d => d['console'])
     let graph = bb.generate({
         data: {
@@ -11,7 +12,6 @@ export default graphId => {
         },
         bindto: document.getElementById(graphId)
         })
-    let input= document.getElementById(`${graphId}-input`);
     input.addEventListener('input', e=> {
         input =  Number(e.target.value);
         let mesdonnes = data.filter(d => d.year === input).filter(d => d.nombreDeSorties != 0);
