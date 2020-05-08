@@ -7,7 +7,6 @@
 }
  html, body {
   margin: 0;
-  padding-right: 50px;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
   width: 100%;
   font-size: 12px;
@@ -34,11 +33,18 @@ a {
 }
 
 .nes-container {
+<<<<<<< HEAD
   margin-bottom: 30px;
 }
 
 span {
   margin-left: 45%;
+=======
+  margin-top:20px;
+  margin-bottom: 10px;
+  background-color: lightgray;
+
+>>>>>>> cssWork
 }
 
 input[type="range"]{
@@ -61,10 +67,17 @@ input[type="range"]{
   box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
 } 
 
+<<<<<<< HEAD
 .snes-logo, .nes-logo {
   margin-left: 10px;
   margin-right: 10px;
 }
+=======
+.graph-descr{
+  margin: 2em 0 2em 0;
+}
+
+>>>>>>> cssWork
 /*
  * CSS pour perf-editeurs (Jean)
  */
@@ -89,6 +102,47 @@ input[type="range"]{
   width: 25px;
   height: 25px;
 }
+/* ventes globales*/
+
+#ventes-globales-graph g.bb-chart-arcs > g.bb-chart-arc > text {
+  font-family:"Press Start 2P"
+}
+ /* /css type jeux/ */
+#types-jeux-graph{
+  height: 45em;
+  margin-top:3em;
+}
+
+.bb-chart-radars > g:nth-child(3) :hover{
+   fill-opacity: .5 ;
+}
+.bb-chart-radars > g:nth-child(3){
+  fill-opacity: .2 ;
+}
+div#types-jeux-graph.bb svg g g.bb-chart g.bb-chart-radars g.bb-axis text{
+  font-size: 15px;
+    font-family: "Press Start 2P";
+
+  
+}
+#types-jeux-graph g.bb-defocused{
+  display: none;
+}
+#types-jeux-graph g.bb-chart-text{
+  font-size:15px;
+  display:none;
+}
+#types-jeux-graph > svg:nth-child(1) > g:nth-child(2) > g:nth-child(5) {
+  shape-rendering: geometricprecision;
+}
+#types-jeux-graph > svg:nth-child(1) > g:nth-child(2) > g:nth-child(6){
+  shape-rendering: geometricPrecision;
+}
+
+.bb-legend-item {
+  font-size: 1em !important;
+  font-family: "Press Start 2P";
+}
 
 /* chart ventes mondiales */
 .bb-shape.bb-arc {
@@ -101,4 +155,8 @@ g.bb-chart-arcs>g.bb-chart-arc>text{
 .bb-chart-arc text {
   fill: black !important;
   opacity: 1;
+}
+/* jeux par an */
+#jeux-par-an-graph .tick{
+  font-family:"Press Start 2P"
 }
